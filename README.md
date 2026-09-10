@@ -13,21 +13,25 @@ BX / Web / UI·UX / Framer / AI
 
 `HTML` `CSS` `JavaScript` `Responsive Web`
 
-→ [View Project](./projects/tistory-skin/README.md)
+→ [View Project](https://github.com/bini-s2/tistory-skin)
 
 ### SUTUDIO
 개인 웹사이트 디자인 및 Framer 구축 프로젝트.
 
 `Web Design` `Framer` `Interaction` `Responsive`
 
-> Project archive coming soon.
+→ [View Project](https://github.com/bini-s2/sutudio)
+
+상세 작업 기록 정리 중.
 
 ### Readdy AI Web
 AI Website Builder를 활용한 업종별 웹사이트 디자인 실험.
 
 `AI` `Web Design` `Prompting`
 
-> Project archive coming soon.
+→ [View Project](https://github.com/bini-s2/readdy-ai-web)
+
+상세 작업 기록 정리 중.
 
 ---
 
@@ -35,13 +39,13 @@ AI Website Builder를 활용한 업종별 웹사이트 디자인 실험.
 
 ### 2026.09
 
-- `09.10` Tistory Skin — Final Polish
-- `09.10` Tistory Skin — v1.43–v1.48
-- `09.09` Design Archive — Content & Structure
+- `09.10` [Tistory Skin — Final Polish](./logs/2026/09/2026-09-10-tistory-skin-final-polish.md)
+- `09.10` [Tistory Skin — v1.43–v1.48](./logs/2026/09/2026-09-10-tistory-skin-version-history.md)
+- `09.09` [Design Archive — Content & Structure](./logs/2026/09/2026-09-09-design-archive-log.md)
 
 ### 2026.08
 
-- `08.31` Framer — Mobile Responsive
+- `08.31` [Framer — Mobile Responsive](./logs/2026/08/2026-08-31-framer-mobile.md)
 
 → [Browse Logs](./logs/2026/)
 
