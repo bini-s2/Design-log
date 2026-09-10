@@ -24,7 +24,7 @@ BX / Web / UI·UX / Framer / AI
 
 → [View Project](https://github.com/bini-s2/sutudio)
 
-상세 작업 기록 정리 중.
+작업 기록 정리 완료 · 확인된 진행 상태는 각 저장소에 표시.
 
 ### Readdy AI Web
 AI Website Builder를 활용한 업종별 웹사이트 디자인 실험.
@@ -33,7 +33,7 @@ AI Website Builder를 활용한 업종별 웹사이트 디자인 실험.
 
 → [View Project](https://github.com/bini-s2/readdy-ai-web)
 
-상세 작업 기록 정리 중.
+작업 기록 정리 완료 · 확인된 진행 상태는 각 저장소에 표시.
 
 ---
 
@@ -41,13 +41,8 @@ AI Website Builder를 활용한 업종별 웹사이트 디자인 실험.
 
 ### 2026.09
 
-- `09.10` [Tistory Skin — Final Polish](./logs/2026/09/2026-09-10-tistory-skin-final-polish.md)
-- `09.10` [Tistory Skin — v1.43–v1.48](./logs/2026/09/2026-09-10-tistory-skin-version-history.md)
+- `09.10` [작은 디자인 작업·공부·실험 기록 정리](./logs/2026/09/2026-09-10-small-design-work-history.md)
 - `09.09` [Design Archive — Content & Structure](./logs/2026/09/2026-09-09-design-archive-log.md)
-
-### 2026.08
-
-- `08.31` [Framer — Mobile Responsive](./logs/2026/08/2026-08-31-framer-mobile.md)
 
 → [Browse Logs](./logs/2026/)
 

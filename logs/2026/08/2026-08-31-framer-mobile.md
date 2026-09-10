@@ -1,11 +1,8 @@
 # 2026-08-31
 
-## 오늘 한 일
-- 전체 페이지 모바일 반응형 작업 완료
-- 모바일 스크롤에 맞춰 모션 조정
-- 모바일 메뉴 및 Overlay 작업
-- Archive 모바일 레이아웃 완성
+프로젝트별 기록 분리에 따라 이 작업 일지를 해당 저장소로 옮겼습니다.
 
-## 오늘의 회고
-오늘은 AI에게 질문하는 횟수가 많이 줄었다.
-Framer 구조를 조금씩 이해하면서 스스로 판단하고 작업할 수 있었다.
+- [현재 작업 기록](https://github.com/bini-s2/sutudio/blob/main/logs/2026/08/2026-08-31-framer-mobile.md)
+- [이관 전 원기록](https://github.com/bini-s2/Design-log/blob/8ab14df2bd15e2a3c6d73e2a0fea7fefa18d48e9/logs/2026/08/2026-08-31-framer-mobile.md)
+
+이관일: 2026-09-10. 기존 커밋 이력은 원기록 링크에서 확인할 수 있습니다.
