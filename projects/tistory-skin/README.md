@@ -1,5 +1,7 @@
 # Tistory Custom Skin
 
+> 현재 프로젝트 문서는 [tistory-skin 전용 저장소](https://github.com/bini-s2/tistory-skin)에서 관리합니다. 아래는 저장소 분리 전 기록입니다.
+
 개인 디자인 아카이브를 하나의 웹사이트처럼 운영하기 위해 제작한 Tistory 커스텀 스킨 프로젝트입니다.
 
 ## Overview
