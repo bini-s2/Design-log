@@ -1,4 +1,4 @@
-name: Sync Tistory
+name: Sync Publishing Activity
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Sync Tistory RSS
+      - name: Sync publishing activity
         run: python scripts/sync_tistory.py
 
       - name: Rebuild activity index
@@ -36,11 +36,11 @@ jobs:
         shell: bash
         run: |
           if git diff --quiet; then
-            echo "No new Tistory activity."
+            echo "No new publishing activity."
             exit 0
           fi
           git config user.name "design-log-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md logs/ .automation/
-          git commit -m "log: sync Tistory activity"
+          git commit -m "log: add publishing activity"
           git push
