@@ -1,10 +1,20 @@
 # Design Log
 
-특정 프로젝트에 속하지 않는 작은 디자인 작업과 공부·실험을 짧게 기록합니다.
+디자인·UX/UI·웹·AI 활용 과정에서 생긴 **의미 있는 작업과 학습을 자동/수동으로 기록하는 공개 작업 로그**입니다.
 
-프로젝트별 작업과 수정은 아래의 전용 저장소에 커밋합니다.
+상세 프로젝트 작업은 각 전용 저장소에 남기고, 이 저장소는 여러 프로젝트를 가로지르는 작업 흐름과 공부 기록을 한곳에서 확인하는 허브로 사용합니다.
 
-BX / Web / UI·UX / Framer / AI
+BX / Web / UI·UX / Framer / AI-assisted Design / Automation
+
+---
+
+## Quick Log
+
+- **ChatGPT** — `/log`, `기록해줘`, `오늘 작업 깃허브에 남겨줘`처럼 말하면 현재 작업 맥락을 정리해 기록합니다.
+- **GitHub 버튼** — [Add Work Log](https://github.com/bini-s2/Design-log/actions/workflows/add-work-log.yml)에서 제목·카테고리·요약만 입력하면 날짜별 로그에 자동 추가됩니다.
+- **Tistory 자동 기록** — `bini-s2.tistory.com`의 새 글을 RSS로 확인해 새 게시물이 있을 때만 작업 로그에 기록합니다.
+
+자동화 구조와 기록 원칙은 [AUTOMATION.md](./AUTOMATION.md)를 참고합니다.
 
 ---
 
@@ -24,8 +34,6 @@ BX / Web / UI·UX / Framer / AI
 
 → [View Project](https://github.com/bini-s2/sutudio)
 
-작업 기록 정리 완료 · 확인된 진행 상태는 각 저장소에 표시.
-
 ### Readdy AI Web
 AI Website Builder를 활용한 업종별 웹사이트 디자인 실험.
 
@@ -33,16 +41,17 @@ AI Website Builder를 활용한 업종별 웹사이트 디자인 실험.
 
 → [View Project](https://github.com/bini-s2/readdy-ai-web)
 
-작업 기록 정리 완료 · 확인된 진행 상태는 각 저장소에 표시.
-
 ---
 
-## Design Logs
+## Recent Activity
 
-### 2026.09
-
+<!-- LOG_INDEX_START -->
+- `09.14` [2026-09-14 Work Log](./logs/2026/09/2026-09-14.md)
 - `09.10` [작은 디자인 작업·공부·실험 기록 정리](./logs/2026/09/2026-09-10-small-design-work-history.md)
+- `09.10` [Tistory Skin Final Polish](./logs/2026/09/2026-09-10-tistory-skin-final-polish.md)
+- `09.10` [Tistory Skin Version History](./logs/2026/09/2026-09-10-tistory-skin-version-history.md)
 - `09.09` [Design Archive — Content & Structure](./logs/2026/09/2026-09-09-design-archive-log.md)
+<!-- LOG_INDEX_END -->
 
 → [Browse Logs](./logs/2026/)
 
@@ -54,4 +63,5 @@ Brand Experience
 Web Design  
 UI/UX  
 Interaction  
-AI-assisted Design
+AI-assisted Design  
+Workflow Automation
