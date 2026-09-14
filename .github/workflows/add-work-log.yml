@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       title:
-        description: "기록 제목"
+        description: "기록 제목 (사람·브랜드·기관·프로젝트 고유명사 및 감정 표현 금지)"
         required: true
         type: string
       category:
@@ -23,17 +23,22 @@ on:
           - Creative
           - Other
       summary:
-        description: "한 줄 요약"
+        description: "객관적 작업 요약 (식별 정보·감정 표현 금지)"
         required: true
         type: string
       details:
-        description: "상세 메모 (선택)"
+        description: "기술적 상세 메모만 입력 (선택)"
         required: false
         type: string
       link:
-        description: "관련 링크 (선택)"
+        description: "식별 정보가 없는 공개 링크만 입력 (선택)"
         required: false
         type: string
+      privacy_checked:
+        description: "실명·브랜드·기관·식별 가능한 대상·감정 표현이 없음을 확인"
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -46,6 +51,12 @@ jobs:
   add-log:
     runs-on: ubuntu-latest
     steps:
+      - name: Verify privacy confirmation
+        if: ${{ !inputs.privacy_checked }}
+        run: |
+          echo "Privacy confirmation is required."
+          exit 1
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -79,5 +90,5 @@ jobs:
           git config user.name "design-log-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md logs/
-          git commit -m "log: ${{ inputs.title }}"
+          git commit -m "log: add work activity"
           git push
