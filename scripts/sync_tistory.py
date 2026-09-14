@@ -1,8 +1,6 @@
 from __future__ import annotations
 
-import html
 import json
-import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -21,19 +19,10 @@ KST = ZoneInfo("Asia/Seoul")
 def fetch_rss() -> bytes:
     req = urllib.request.Request(
         RSS_URL,
-        headers={"User-Agent": "DesignLogBot/1.0 (+https://github.com/bini-s2/Design-log)"},
+        headers={"User-Agent": "DesignLogBot/1.0"},
     )
     with urllib.request.urlopen(req, timeout=20) as response:
         return response.read()
-
-
-def plain_text(value: str, limit: int = 240) -> str:
-    value = html.unescape(value or "")
-    value = re.sub(r"<[^>]+>", " ", value)
-    value = " ".join(value.split())
-    if len(value) > limit:
-        return value[: limit - 1].rstrip() + "…"
-    return value
 
 
 def parse_items(xml_bytes: bytes) -> list[dict[str, str]]:
@@ -47,15 +36,11 @@ def parse_items(xml_bytes: bytes) -> list[dict[str, str]]:
         title = text("title")
         link = text("link")
         guid = text("guid") or link
-        description = text("description")
         pub_date = text("pubDate")
         if title and link:
             items.append(
                 {
                     "id": guid,
-                    "title": title,
-                    "link": link,
-                    "description": description,
                     "pubDate": pub_date,
                 }
             )
@@ -76,7 +61,6 @@ def save_state(seen: list[str], started_at: str) -> None:
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "initialized": True,
-        "rss": RSS_URL,
         "started_at": started_at,
         "seen": seen[:100],
         "updated_at": datetime.now(KST).isoformat(timespec="seconds"),
@@ -109,7 +93,7 @@ def parse_started_at(value: str) -> datetime:
 def main() -> None:
     items = parse_items(fetch_rss())
     if not items:
-        raise RuntimeError("Tistory RSS returned no posts")
+        raise RuntimeError("RSS returned no posts")
 
     state = load_state()
     started_at_text = state.get("started_at") or datetime.now(KST).isoformat(timespec="seconds")
@@ -121,19 +105,26 @@ def main() -> None:
     if not seen:
         candidates = [item for item in candidates if item_datetime(item["pubDate"]) >= started_at]
 
+    # 공개 로그에는 RSS의 제목·본문·링크를 복사하지 않는다.
+    # 같은 날 여러 글이 발행되어도 비식별 활동 사실 하나만 남긴다.
+    days_logged: set[str] = set()
     for item in reversed(candidates):
+        when = item_datetime(item["pubDate"])
+        day_key = when.strftime("%Y-%m-%d")
+        if day_key in days_logged:
+            continue
         append_log(
-            title=f"Tistory · {item['title']}",
+            title="블로그 글 발행",
             category="Blog",
-            summary=plain_text(item["description"]) or "새 티스토리 글 발행.",
-            link=item["link"],
-            source="Tistory RSS",
-            when=item_datetime(item["pubDate"]),
+            summary="새 글 발행 활동을 기록함.",
+            source="Blog Automation",
+            when=when,
         )
+        days_logged.add(day_key)
 
     merged = current_ids + [item_id for item_id in state.get("seen", []) if item_id not in current_ids]
     save_state(merged, started_at_text)
-    print(f"synced {len(candidates)} new post(s); older posts were not backfilled")
+    print(f"synced {len(candidates)} new post(s) with anonymized activity logging")
 
 
 if __name__ == "__main__":
