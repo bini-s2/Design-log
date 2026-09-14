@@ -64,15 +64,20 @@ def parse_items(xml_bytes: bytes) -> list[dict[str, str]]:
 
 def load_state() -> dict:
     if not STATE_PATH.exists():
-        return {"initialized": False, "seen": []}
+        return {
+            "initialized": True,
+            "started_at": datetime.now(KST).isoformat(timespec="seconds"),
+            "seen": [],
+        }
     return json.loads(STATE_PATH.read_text(encoding="utf-8"))
 
 
-def save_state(seen: list[str]) -> None:
+def save_state(seen: list[str], started_at: str) -> None:
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "initialized": True,
         "rss": RSS_URL,
+        "started_at": started_at,
         "seen": seen[:100],
         "updated_at": datetime.now(KST).isoformat(timespec="seconds"),
     }
@@ -91,23 +96,32 @@ def item_datetime(pub_date: str) -> datetime:
         return datetime.now(KST)
 
 
+def parse_started_at(value: str) -> datetime:
+    try:
+        parsed = datetime.fromisoformat(value)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=KST)
+        return parsed.astimezone(KST)
+    except (TypeError, ValueError):
+        return datetime.now(KST)
+
+
 def main() -> None:
     items = parse_items(fetch_rss())
     if not items:
         raise RuntimeError("Tistory RSS returned no posts")
 
     state = load_state()
+    started_at_text = state.get("started_at") or datetime.now(KST).isoformat(timespec="seconds")
+    started_at = parse_started_at(started_at_text)
+    seen = set(state.get("seen", []))
     current_ids = [item["id"] for item in items]
 
-    if not state.get("initialized"):
-        save_state(current_ids)
-        print(f"bootstrapped with {len(current_ids)} existing posts; no backfill")
-        return
+    candidates = [item for item in items if item["id"] not in seen]
+    if not seen:
+        candidates = [item for item in candidates if item_datetime(item["pubDate"]) >= started_at]
 
-    seen = set(state.get("seen", []))
-    new_items = [item for item in items if item["id"] not in seen]
-
-    for item in reversed(new_items):
+    for item in reversed(candidates):
         append_log(
             title=f"Tistory · {item['title']}",
             category="Blog",
@@ -118,8 +132,8 @@ def main() -> None:
         )
 
     merged = current_ids + [item_id for item_id in state.get("seen", []) if item_id not in current_ids]
-    save_state(merged)
-    print(f"synced {len(new_items)} new post(s)")
+    save_state(merged, started_at_text)
+    print(f"synced {len(candidates)} new post(s); older posts were not backfilled")
 
 
 if __name__ == "__main__":
