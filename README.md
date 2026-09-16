@@ -34,12 +34,12 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 
 → [View Project](https://github.com/bini-s2/sutudio)
 
-### Readdy AI Web
-AI Website Builder를 활용한 업종별 웹사이트 디자인 실험.
+### Japanese Learning Service
+귀로 익힌 일본어를 표기·의미·문법과 연결해 자격증 학습으로 전환하는 일본어 학습 서비스.
 
-`AI` `Web Design` `Prompting`
+`Product Design` `UX/UI` `Learning Design` `AI`
 
-→ [View Project](https://github.com/bini-s2/readdy-ai-web)
+→ [View Project Log](./logs/2026/09/2026-09-16.md)
 
 ---
 
