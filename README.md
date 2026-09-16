@@ -39,7 +39,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 
 `Product Design` `UX/UI` `Learning Design` `AI`
 
-→ [View Project Log](./logs/2026/09/2026-09-16.md)
+→ [View Project](https://github.com/bini-s2/japanese-sound-to-script)
 
 ---
 
