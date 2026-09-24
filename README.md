@@ -46,6 +46,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
+- `09-25` [2026-09-25](./logs/2026/09/2026-09-25.md)
 - `09-24` [2026-09-24](./logs/2026/09/2026-09-24.md)
 - `09-23` [2026-09-23](./logs/2026/09/2026-09-23.md)
 - `09-22` [2026-09-22](./logs/2026/09/2026-09-22.md)
