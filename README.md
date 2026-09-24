@@ -46,6 +46,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
+- `09-24` [2026-09-24](./logs/2026/09/2026-09-24.md)
 - `09-23` [2026-09-23](./logs/2026/09/2026-09-23.md)
 - `09-22` [2026-09-22](./logs/2026/09/2026-09-22.md)
 - `09-21` [2026-09-21](./logs/2026/09/2026-09-21.md)
@@ -60,7 +61,6 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 - `09-10` [2026-09-10 Tistory Skin Final Polish](./logs/2026/09/2026-09-10-tistory-skin-final-polish.md)
 - `09-10` [작은 디자인 작업·공부·실험 기록 정리](./logs/2026/09/2026-09-10-small-design-work-history.md)
 - `09-09` [2026-09-09 Design Archive Log](./logs/2026/09/2026-09-09-design-archive-log.md)
-- `08-31` [2026-08-31](./logs/2026/08/2026-08-31-framer-mobile.md)
 <!-- LOG_INDEX_END -->
 
 → [Browse Logs](./logs/2026/)
