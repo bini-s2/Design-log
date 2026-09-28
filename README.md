@@ -61,7 +61,6 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 - `09-15` [2026-09-15 Work Log](./logs/2026/09/2026-09-15.md)
 - `09-14` [2026-09-14 Work Log](./logs/2026/09/2026-09-14.md)
 - `09-10` [2026-09-10](./logs/2026/09/2026-09-10-tistory-skin-version-history.md)
-- `09-10` [2026-09-10 Tistory Skin Final Polish](./logs/2026/09/2026-09-10-tistory-skin-final-polish.md)
 <!-- LOG_INDEX_END -->
 
 → [Browse Logs](./logs/2026/)
