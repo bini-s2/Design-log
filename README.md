@@ -61,7 +61,6 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 - `09-22` [2026-09-22](./logs/2026/09/2026-09-22.md)
 - `09-21` [2026-09-21](./logs/2026/09/2026-09-21.md)
 - `09-20` [2026-09-20 Work Log](./logs/2026/09/2026-09-20.md)
-- `09-19` [2026-09-19 Work Log](./logs/2026/09/2026-09-19.md)
 <!-- LOG_INDEX_END -->
 
 → [Browse Logs](./logs/2026/)
