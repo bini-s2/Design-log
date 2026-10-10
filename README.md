@@ -46,6 +46,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
+- `10-10` [2026-10-10 — 일본어 발음 검색 누락 개선](./logs/2026/10/2026-10-10.md)
 - `10-09` [2026-10-09](./logs/2026/10/2026-10-09.md)
 - `10-09` [프로덕트 디자이너 인터뷰 회고](./logs/2026/10/2026-10-09-interview-reflection.md)
 - `10-08` [2026-10-08](./logs/2026/10/2026-10-08.md)
@@ -60,7 +61,6 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 - `09-27` [2026-09-27](./logs/2026/09/2026-09-27.md)
 - `09-25` [2026-09-25 Work Log](./logs/2026/09/2026-09-25.md)
 - `09-24` [2026-09-24](./logs/2026/09/2026-09-24.md)
-- `09-23` [2026-09-23](./logs/2026/09/2026-09-23.md)
 <!-- LOG_INDEX_END -->
 
 → [Browse Logs](./logs/2026/)
