@@ -46,6 +46,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
+- `10-11` [2026-10-11 — 협찬 콘텐츠 계약 조건 검토](./logs/2026/10/2026-10-11.md)
 - `10-10` [2026-10-10 — 일본어 발음 검색 누락 개선](./logs/2026/10/2026-10-10.md)
 - `10-09` [2026-10-09](./logs/2026/10/2026-10-09.md)
 - `10-09` [프로덕트 디자이너 인터뷰 회고](./logs/2026/10/2026-10-09-interview-reflection.md)
