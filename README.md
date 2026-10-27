@@ -1,10 +1,10 @@
 # Design Log
 
-디자인·UX/UI·웹·AI 활용 과정에서 생긴 **의미 있는 작업과 학습을 자동/수동으로 기록하는 공개 작업 로그**입니다.
+디자인·UX/UI·웹·AI 활용 과정에서 생긴 **의미 있는 작업과 학습을 기록하는 공개 작업 로그**입니다.
 
 상세 프로젝트 작업은 각 전용 저장소에 남기고, 이 저장소는 여러 프로젝트를 가로지르는 작업 흐름과 공부 기록을 한곳에서 확인하는 허브로 사용합니다.
 
-BX / Web / UI·UX / Framer / AI-assisted Design / Automation
+BX / Web / UI·UX / Framer / AI-assisted Design
 
 ---
 
@@ -63,5 +63,4 @@ Brand Experience
 Web Design  
 UI/UX  
 Interaction  
-AI-assisted Design  
-Workflow Automation
+AI-assisted Design
