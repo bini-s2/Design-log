@@ -8,16 +8,6 @@ BX / Web / UI·UX / Framer / AI-assisted Design / Automation
 
 ---
 
-## Quick Log
-
-- **ChatGPT** — `/log`, `기록해줘`, `오늘 작업 깃허브에 남겨줘`처럼 말하면 현재 작업 맥락을 정리해 기록합니다.
-- **GitHub 버튼** — [Add Work Log](https://github.com/bini-s2/Design-log/actions/workflows/add-work-log.yml)에서 제목·카테고리·요약만 입력하면 날짜별 로그에 자동 추가됩니다.
-- **Tistory 자동 기록** — `bini-s2.tistory.com`의 새 글을 RSS로 확인해 새 게시물이 있을 때만 작업 로그에 기록합니다.
-
-공개 작업 로그는 GitHub Actions로 운영하며, 상세 자동화·작성 양식은 별도 비공개 저장소에서 관리합니다.
-
----
-
 ## Projects
 
 ### Tistory Custom Skin
