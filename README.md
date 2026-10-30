@@ -36,7 +36,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
-- `10-30` [2026-10-30 — Readdy 협찬 원고 검토 통과 및 마무리](./logs/2026/10/2026-10-30.md)
+- `10-30` [2026-10-30 Work Log](./logs/2026/10/2026-10-30.md)
 - `10-29` [2026-10-29 Work Log](./logs/2026/10/2026-10-29.md)
 - `10-28` [2026-10-28 — AI의 한계와 답변 검증 학습](./logs/2026/10/2026-10-28.md)
 - `10-27` [2026-10-27 Work Log](./logs/2026/10/2026-10-27.md)
@@ -51,7 +51,6 @@ BX / Web / UI·UX / Framer / AI-assisted Design
 - `10-09` [프로덕트 디자이너 인터뷰 회고](./logs/2026/10/2026-10-09-interview-reflection.md)
 - `10-08` [2026-10-08](./logs/2026/10/2026-10-08.md)
 - `10-07` [2026-10-07](./logs/2026/10/2026-10-07.md)
-- `10-06` [2026-10-06](./logs/2026/10/2026-10-06.md)
 <!-- LOG_INDEX_END -->
 
 → [Browse Logs](./logs/2026/)
