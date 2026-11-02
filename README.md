@@ -36,6 +36,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
+- `11-02` [2026-11-02 — Figma Auto Layout 및 반응형 레이아웃 학습](./logs/2026/11/2026-11-02.md)
 - `10-30` [2026-10-30 Work Log](./logs/2026/10/2026-10-30.md)
 - `10-29` [2026-10-29 Work Log](./logs/2026/10/2026-10-29.md)
 - `10-28` [2026-10-28 — AI의 한계와 답변 검증 학습](./logs/2026/10/2026-10-28.md)
