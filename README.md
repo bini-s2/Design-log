@@ -36,6 +36,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
+- `11-19` [2026-11-19 — Framer 폰트 교체·CMS 필드 정리](./logs/2026/11/2026-11-19.md)
 - `11-18` [2026-11-18 Work Log](./logs/2026/11/2026-11-18.md)
 - `11-17` [2026-11-17 Work Log](./logs/2026/11/2026-11-17.md)
 - `11-14` [2026-11-14 Work Log](./logs/2026/11/2026-11-14.md)
