@@ -36,6 +36,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
+- `11-20` [2026-11-20 — React·Dev Mode·핸드오프 TIL](./logs/2026/11/2026-11-20.md)
 - `11-19` [2026-11-19 Work Log](./logs/2026/11/2026-11-19.md)
 - `11-18` [2026-11-18 Work Log](./logs/2026/11/2026-11-18.md)
 - `11-17` [2026-11-17 Work Log](./logs/2026/11/2026-11-17.md)
