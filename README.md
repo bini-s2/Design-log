@@ -36,7 +36,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
-- `11-20` [2026-11-20 — React·Dev Mode·핸드오프 TIL](./logs/2026/11/2026-11-20.md)
+- `11-20` [2026-11-20 — React·Figma Dev Mode·핸드오프 학습](./logs/2026/11/2026-11-20.md)
 - `11-19` [2026-11-19 Work Log](./logs/2026/11/2026-11-19.md)
 - `11-18` [2026-11-18 Work Log](./logs/2026/11/2026-11-18.md)
 - `11-17` [2026-11-17 Work Log](./logs/2026/11/2026-11-17.md)
@@ -51,7 +51,6 @@ BX / Web / UI·UX / Framer / AI-assisted Design
 - `11-03` [2026-11-03 — 컴포넌트·Input UX 학습](./logs/2026/11/2026-11-03.md)
 - `11-02` [2026-11-02 Work Log](./logs/2026/11/2026-11-02.md)
 - `10-30` [2026-10-30 Work Log](./logs/2026/10/2026-10-30.md)
-- `10-29` [2026-10-29 Work Log](./logs/2026/10/2026-10-29.md)
 <!-- LOG_INDEX_END -->
 
 → [Browse Logs](./logs/2026/)
