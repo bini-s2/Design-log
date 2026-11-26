@@ -36,6 +36,7 @@ BX / Web / UI·UX / Framer / AI-assisted Design
 ## Recent Activity
 
 <!-- LOG_INDEX_START -->
+- `11-26` [2026-11-26 — UX 원칙과 프론트엔드 기초 용어 학습](./logs/2026/11/2026-11-26.md)
 - `11-24` [2026-11-24 — AI 프롬프트 설계와 Few-shot](./logs/2026/11/2026-11-24.md)
 - `11-22` [2026-11-22 — Framer 갤러리 반응형·타이포그래피 작업](./logs/2026/11/2026-11-22.md)
 - `11-20` [2026-11-20 — React·Figma Dev Mode·핸드오프 학습](./logs/2026/11/2026-11-20.md)
